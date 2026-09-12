@@ -13,11 +13,11 @@ jobs:
         run: |
           git clone --depth 1 https://github.com/GattiHarishKumar/SpringBoot-Reactjs-Ecommerce.git upstream
 
-      - name: Set up JDK 17
+      - name: Set up JDK 21
         uses: actions/setup-java@v4
         with:
           distribution: temurin
-          java-version: '17'
+          java-version: '21'
 
       - name: Build backend (Maven)
         run: |
