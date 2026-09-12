@@ -1,4 +1,7 @@
 name: Build and Release Docker-ready ZIP
+permissions:
+  contents: write
+  packages: write
 on:
   workflow_dispatch:
 
