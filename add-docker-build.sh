@@ -217,3 +217,5 @@ else
   echo "git push 失败。请检查权限（HTTPS 使用 PAT 或配置 SSH key）。"
   echo "如果需要我可以帮你排查具体的错误，请把 push 的错误信息贴给我。"
   exit 2
+
+fi
